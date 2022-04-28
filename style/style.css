@@ -1,0 +1,23 @@
+body{
+    Font-family: "‘Open Sans’, ‘Popper’",sans-serif;
+}
+.block{
+    position: relative;
+    background: url("../img/header-bg.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+}
+.block::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.705);
+    z-index: 2;
+}
+.z-index-3{
+    z-index: 3;
+}
